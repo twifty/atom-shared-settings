@@ -1,0 +1,27 @@
+{
+  "name": "shared-config",
+  "main": "./lib/shared-config",
+  "version": "0.0.0",
+  "description": "A method of sharing configurations among packages",
+  "keywords": [
+      "config",
+      "settings",
+      "global",
+      "package"
+  ],
+  "repository": "git@github.com:twifty/atom-shared-settings.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+      "deep-equal": "^1.0.1",
+      "deep-clone": "^3.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}

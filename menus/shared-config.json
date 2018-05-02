@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle shared-config",
+        "command": "shared-config:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "shared-config",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "shared-config:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
