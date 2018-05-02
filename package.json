@@ -1,5 +1,5 @@
 {
-  "name": "shared-config",
+  "name": "shared-settings",
   "main": "./lib/shared-config",
   "version": "0.0.0",
   "description": "A method of sharing configurations among packages",
@@ -9,7 +9,7 @@
       "global",
       "package"
   ],
-  "repository": "git@github.com:twifty/atom-shared-settings.git",
+  "repository": "https://github.com/twifty/atom-shared-settings.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
