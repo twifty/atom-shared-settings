@@ -1,7 +1,7 @@
 {
   "name": "shared-settings",
   "main": "./lib/shared-settings",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A method of sharing configurations among packages",
   "keywords": [
     "config",
