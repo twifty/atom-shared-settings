@@ -21,7 +21,7 @@ a package.json may look like:
         "php": {
             "type": "object",
             "properties": {
-                "phpCommand": {
+                "php-command": {
                   "title": "PHP command",
                   "description": "The path to your PHP binary (e.g. /usr/bin/php, php, ...).",
                   "type": "string",
@@ -36,7 +36,7 @@ a package.json may look like:
 These settings may be accessed through the standard `Config` class under the global namespace 'shared':
 
 ```js
-const cmd = atom.config.get('shared.php.phpCommand')
+const cmd = atom.config.get('shared.php.php-command')
 ```
 
 #### Notice
